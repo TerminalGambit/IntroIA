@@ -143,3 +143,41 @@ En résumé, la décision et la complexité dans
  le contexte de la logique des prédicats et de la logique propositionnelle mettent en lumière les défis inhérents à la résolution de problèmes complexes et à la construction d'algorithmes efficaces en informatique. La nécessité de se tourner vers des fragments plus maniables de la logique souligne un compromis fondamental entre l'expressivité et la calculabilité, un équilibre essentiel dans le développement de systèmes informatiques et d'intelligence artificielle. 
 
 Pour vous en tant qu'étudiant en informatique, une compréhension approfondie de ces concepts non seulement enrichit votre fond théorique mais aussi guide vos choix pratiques dans la conception et l'optimisation d'algorithmes, et dans la sélection de méthodes appropriées pour aborder des problèmes spécifiques en IA et en cybersécurité. Cela joue un rôle crucial dans votre capacité à évaluer, à choisir et à appliquer les bons outils et techniques pour les défis que vous rencontrerez dans votre carrière.
+
+La hiérarchie de Chomsky, nommée d'après le linguiste et logicien Noam Chomsky, est un cadre important pour classer les langages formels selon leur complexité. Cette hiérarchie est particulièrement pertinente en informatique, notamment dans le domaine de la théorie des langages de programmation et de l'automatisation. En tant qu'étudiant en informatique, cette compréhension vous aidera à apprécier les différences fondamentales entre divers types de langages informatiques et leurs capacités.
+
+### Niveaux de la Hiérarchie de Chomsky
+La hiérarchie est divis
+
+ée en quatre niveaux, du plus restrictif au plus général :
+
+1. **Langages Réguliers (Type 3)**
+   - **Automates** : Acceptés par des automates finis.
+   - **Expressions** : Peuvent être décrits par des expressions régulières.
+   - **Usage** : Utilisé pour les moteurs de recherche de texte, la validation de format (comme les adresses email), et dans les systèmes de communication simples.
+
+2. **Langages Sans Contexte (Type 2)**
+   - **Automates** : Acceptés par des automates à pile (non déterministes).
+   - **Grammaires** : Peuvent être décrits par des grammaires sans contexte, où les règles de production sont de la forme A → α, avec A étant un non-terminal et α une chaîne de non-terminaux et terminaux.
+   - **Usage** : Utilisé pour la syntaxe des langages de programmation et dans l'analyse syntaxique dans le traitement du langage naturel.
+
+3. **Langages Sensibles au Contexte (Type 1)**
+   - **Automates** : Acceptés par des automates linéairement bornés.
+   - **Grammaires** : Les règles de production sont de la forme αAβ → αγβ, où A est un non-terminal, et α, β, γ sont des chaînes de non-terminaux et de terminaux.
+   - **Usage** : Moins courants en pratique, mais importants pour certaines constructions théoriques en informatique et en linguistique.
+
+4. **Langages Récurrents (Type 0)**
+   - **Automates** : Acceptés par des machines de Turing (automates avec une mémoire potentiellement infinie).
+   - **Grammaires** : Aucune restriction sur les règles de production, permettant des langages de très haute complexité.
+   - **Usage** : Englobe tous les langages pouvant être générés par un algorithme, y compris tous les programmes informatiques.
+
+### Importance dans l'Informatique et l'IA
+- **Analyse et Conception de Langages** : La hiérarchie de Chomsky aide à comprendre la structure et la complexité des langages de programmation et des langages formels utilisés en informatique.
+
+- **Théorie de la Calculabilité** : Elle fournit un cadre pour comprendre quels problèmes peuvent être résolus ou non par des ordinateurs (machines de Turing), ce qui est fondamental dans la théorie de la calculabilité.
+
+- **Traitement du Langage Naturel (TALN)** : En IA, cette hiérarchie est essentielle pour l'analyse syntaxique et la compréhension de la structure des langues naturelles, un domaine clé du TALN.
+
+Pour un étudiant en informatique, la maîtrise de la hiérarchie de Chomsky enrichit votre compr
+
+éhension de la théorie sous-jacente aux langages de programmation et au traitement du langage naturel. Elle vous permet de mieux apprécier la complexité des différentes tâches de traitement du langage et la puissance des différents types d'automates et de machines de Turing. Cette connaissance est essentielle pour la conception d'algorithmes efficaces et pour la compréhension des limites de ce que les ordinateurs peuvent accomplir, en particulier dans le domaine de l'intelligence artificielle.
