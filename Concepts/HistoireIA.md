@@ -381,6 +381,7 @@ Le Resource Description Framework (RDF) est un cadre standard pour le traitement
   - **Objet** : La valeur de l'attribut ou la ressource à laquelle le sujet est relié. L'objet peut être une autre ressource (nœud) ou un littéral (par exemple, une chaîne de caractères, un nombre).
 
 ### Utilisation et Applications
+
 - **Représentation des Connaissances** : RDF est largement utilisé pour modéliser des informations et des connaissances dans des domaines variés, permettant de lier des données provenant de sources différentes de manière significative.
 
 - **Interconnexion des Données** : Grâce à sa structure flexible, RDF facilite l'interconnexion des données sur le Web, permettant aux applications de partager et d'intégrer des informations de manière homogène.
@@ -392,6 +393,7 @@ Le Resource Description Framework (RDF) est un cadre standard pour le traitement
 - **SPARQL** : RDF est étroitement associé à SPARQL, un langage de requête pour les bases de données qui permet de récupérer et de manipuler les données stockées dans le format RDF. SPARQL permet d'interroger des données complexes et de réaliser des jointures sur des sources multiples.
 
 ### Avantages et Limitations
+
 - **Flexibilité** : RDF est extrêmement flexible, permettant de représenter des données de manière très granulaire. Cela permet une grande liberté dans la modélisation des connaissances, mais peut aussi entraîner une complexité accrue.
 
 - **Évolutivité** : Le modèle RDF est facilement extensible. De nouvelles données peuvent être ajoutées sans perturber l'existant, ce qui le rend idéal pour le Web en constante évolution.
@@ -401,6 +403,7 @@ Le Resource Description Framework (RDF) est un cadre standard pour le traitement
 - **Complexité** : La flexibilité et la puissance de RDF peuvent également conduire à une complexité dans la gestion des données, en particulier pour les utilisateurs non familiers avec les concepts du Web sémantique.
 
 ### Implications pour Votre Étude et Carrière en Informatique
+
 - **Compréhension des Données sur le Web** : En tant qu'étudiant en informatique, comprendre RDF vous permet de mieux appréhender comment les données sont structurées et interconnectées sur le Web.
 
 - **Développement d'Applications Web** : Cette connaissance est essentielle pour développer des applications Web qui consomment, produisent ou traitent des données interconnectées.
