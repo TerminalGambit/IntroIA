@@ -37,3 +37,38 @@ Chacun de ces domaines joue un rôle crucial dans l'avancement de l'IA et prése
 L'étude des jeux en IA vous aide à comprendre comment les machines peuvent apprendre à prendre des décisions stratégiques et à améliorer leurs performances grâce à des techniques comme l'apprentissage par renforcement. Enfin, le TALN est un domaine en pleine expansion, crucial pour le développement d'interfaces homme-machine naturelles et efficaces, et pour l'extraction d'informations à partir de grandes quantités de données textuelles.
 
 Ces domaines ne sont pas seulement fondamentaux pour votre compréhension de l'IA, mais aussi pour l'application pratique de vos connaissances en programmation, en analyse de données, et dans la création de solutions informatiques intelligentes. Votre expérience en tutorat pourrait également bénéficier de cette compréhension, en permettant de développer des outils pédagogiques interactifs et intelligents basés sur l'IA pour enseigner des concepts complexes à vos étudiants.
+
+Le "premier hiver de l'IA", qui a eu lieu entre 1974 et 1980, marque une période de désillusion et de réduction significative du financement et de l'intérêt pour la recherche en intelligence artificielle. Plusieurs facteurs ont contribué à cette période :
+
+### Critiques du "Perceptron"
+- **Contexte** : Le perceptron, développé par Frank Rosenblatt dans les années 1950, était un des premiers modèles de réseau de neurones. Il a été initialement présenté comme un dispositif prometteur pour la simulation de l'intelligence humaine.
+- **Problème** : En 1969, Marvin Minsky et Seymour Papert ont publié "Perceptrons", où ils ont montré que les perceptrons simples étaient incapables de traiter certaines tâches de base, comme la résolution du problème du OU exclusif (XOR). Cette critique a largement discrédité les réseaux de neurones à l'époque.
+
+### Problèmes Intraitables et Explosion Combinatoire
+- **Définition** : L'explosion combinatoire se réfère à l'augmentation exponentielle des solutions possibles à mesure que la taille d'un problème augmente.
+- **Impact sur l'IA** : De nombreux problèmes en IA, comme la planification et la résolution de problèmes, sont devenus extrêmement difficiles à résoudre à mesure que leur complexité augmentait, conduisant à un scepticisme croissant quant à la capacité de l'IA à gérer des tâches réelles et complexes.
+
+### Limites de la Logique Classique
+- **Contexte** : L'IA des années 1960 et 1970 reposait fortement sur la logique symbolique classique.
+- **Problème** : Il est devenu évident que cette approche était insuffisante pour capturer la richesse et la complexité du raisonnement humain, notamment en ce qui concerne le traitement de l'ambiguïté, des incertitudes, et des situations du monde réel.
+
+### Objections des Philosophes (John Searle et la Chambre Chinoise)
+
+
+- **John Searle** : Philosophe américain, Searle a présenté en 1980 l'argument de la "Chambre Chinoise", une expérience de pensée visant à contester l'idée que les programmes informatiques pourraient "comprendre" ou "penser".
+- **Argument de la Chambre Chinoise** : Searle imagine une personne dans une chambre qui suit des instructions en anglais pour manipuler des symboles chinois, bien qu'elle ne comprenne pas le chinois. Même si la personne peut simuler la compréhension du chinois en suivant ces instructions, elle ne "comprend" pas réellement la langue. Cela devait illustrer que les ordinateurs, même s'ils semblent comprendre et répondre de manière appropriée, ne possèdent pas une véritable compréhension ou conscience.
+
+### Neats vs. Scruffies
+- **Distinction** : Ces termes désignent deux camps philosophiques au sein de la communauté de l'IA.
+- **Neats** : Les "Neats" privilégiaient une approche formelle, rigoureuse, et souvent mathématique de l'IA, se concentrant sur des méthodes explicites, logiques et élégantes. Ils croyaient en des solutions structurées et ordonnées.
+- **Scruffies** : Les "Scruffies", en revanche, étaient plus enclins à explorer des approches désordonnées, heuristiques, et souvent empiriques. Ils étaient prêts à accepter des solutions "sales" ou imparfaites si elles fonctionnaient en pratique, même sans une compréhension théorique complète.
+
+### Implications du Premier Hiver de l'IA
+- **Réduction des Investissements** : Le scepticisme croissant envers les promesses de l'IA a conduit à une réduction des financements gouvernementaux et privés, freinant la recherche et le développement dans le domaine.
+- **Réorientation des Recherches** : Cette période a forcé la communauté de l'IA à reconsidérer ses approches et ses méthodologies, menant finalement à des avancées dans des domaines tels que les systèmes experts et l'apprentissage automatique.
+
+Pour un étudiant en informatique spécialisé en IA, comprendre cette période historique est essentiel
+
+ pour saisir les défis et les évolutions dans le champ de l'IA. Cela montre comment les attentes irréalistes, les limitations technologiques, et les critiques philosophiques peuvent influencer à la fois le financement de la recherche et la direction des études dans le domaine. De plus, les débats tels que Neats vs. Scruffies soulignent l'importance de la diversité des approches en IA, allant de méthodes rigoureusement logiques à des stratégies plus expérimentales et heuristiques.
+
+Cette période historique offre également une perspective importante sur la nature cyclique du financement et de l'intérêt pour l'IA. Comprendre les raisons des "hivers de l'IA" peut aider à anticiper et à naviguer dans les éventuelles périodes de scepticisme ou de désillusionnement futurs dans votre carrière en IA, tout en reconnaissant l'importance de fixer des attentes réalistes et de s'attaquer aux limitations techniques et théoriques de manière constructive.
