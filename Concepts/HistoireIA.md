@@ -557,3 +557,49 @@ Les réseaux de Kohonen, également connus sous le nom de cartes auto-organisatr
 Pour un étudiant en informatique et en IA, la compréhension des réseaux de Kohonen est précieuse, car elle offre une approche efficace pour traiter des problèmes complexes liés à la visualisation de données, au clustering et à la réduction de dimensionnalité. Cette compréhension enrichit également votre palette d'outils dans la science des données et l'apprentissage automatique
 
 , vous permettant d'appliquer ces techniques à une variété de problèmes et de scénarios pratiques. L'intégration des réseaux de Kohonen dans votre travail peut mener à des découvertes significatives et à des solutions innovantes dans le traitement et l'analyse de données complexes.
+
+L'algorithme d'apprentissage des cartes auto-organisatrices (Self-Organizing Maps, SOM) de Kohonen est une technique d'apprentissage non supervisé utilisée pour produire une représentation en basse dimension des données d'entrée, tout en préservant la topologie des données originales. Voici une explication détaillée de cet algorithme :
+
+### 1. Initialisation Aléatoire des Poids
+- Chaque neurone dans la carte SOM est initialisé avec des poids aléatoires. Ces poids sont des vecteurs de la même dimension que les vecteurs d'entrée.
+
+### 2. Sélection d'un Vecteur d'Entrée
+- À chaque itération de l'algorithme, un vecteur d'entrée \( x = (x_1, …, x_n) \) est choisi aléatoirement parmi l'ensemble des données d'entrée.
+
+### 3. Détermination du Neurone de Sortie (BMU)
+- Le Best Matching Unit (BMU) est le neurone de la carte dont les poids sont les plus proches du vecteur d'entrée, généralement mesuré par la distance euclidienne.
+- \( \text{BMU} = \arg\min_i \| W_i - x \|\)
+  où \( W_i \) est le vecteur de poids du neurone \( i \) et \( x \) est le vecteur d'entrée.
+
+### 4. Mise à Jour des Poids
+- Les poids de tous les neurones dans le voisinage du BMU sont ajustés pour se rapprocher davantage du vecteur d'entrée.
+- La mise à jour des poids se fait selon la formule : 
+  \( W_i(t+1) =
+
+ W_i(t) + \theta(u, i, t) \cdot \alpha(t) \cdot (x - W_i(t)) \)
+  où :
+  - \( W_i(t) \) est le poids du neurone \( i \) au temps \( t \).
+  - \( \theta(u, i, t) \) est la fonction de voisinage autour du BMU \( u \) affectant le neurone \( i \).
+  - \( \alpha(t) \) est le taux d'apprentissage au temps \( t \), souvent diminuant avec le temps.
+  - \( x \) est le vecteur d'entrée.
+
+### 5. Fonction de Voisinage et Convergence
+- **Fonction de Voisinage** : Cette fonction détermine la taille de la zone autour du BMU qui sera affectée par la mise à jour. Une fonction de voisinage typique est la fonction gaussienne.
+- **Ajustement de la Fonction de Voisinage** : Avec le temps, la fonction de voisinage est généralement réduite (par exemple, en diminuant le rayon de la gaussienne), ce qui affaiblit l'impact sur les neurones lointains.
+- **Diminution du Taux d'Apprentissage** : Le taux \( \alpha(t) \) est progressivement diminué pour stabiliser la convergence des poids.
+- **Répétition et Convergence** : Si l'algorithme n'a pas convergé (c'est-à-dire, si les poids continuent de changer significativement), le processus est répété en retournant à l'étape 2. La convergence est atteinte quand les changements de poids entre les itérations successives deviennent négligeables.
+
+### Importance de l'Algorithme
+- **Réduction de Dimensionnalité** : Les SOM fournissent une manière puissante de visualiser et d'interpréter des données multidimensionnelles dans un espace de dimensions
+
+ inférieures, souvent en deux dimensions, ce qui rend possible la visualisation de structures complexes et de relations entre les données.
+- **Regroupement et Visualisation** : Les SOM peuvent être utilisés pour regrouper des données similaires et pour visualiser ces groupes de manière intuitive, ce qui est particulièrement utile dans les domaines où la visualisation des données est essentielle pour l'analyse.
+- **Découverte de Patterns Cachés** : En raison de leur capacité à organiser les données de manière topologique, les SOM sont efficaces pour découvrir des patterns cachés dans les données, ce qui peut être crucial pour l'analyse prédictive et exploratoire.
+
+### Applications Pratiques
+- **Bioinformatique** : Pour la classification et la visualisation de profils d'expression génique.
+- **Finance** : Pour la segmentation de marchés et l'analyse de risques.
+- **Traitement d'Images et de Signaux** : Pour la reconnaissance de formes et la réduction de bruit.
+- **Recherche sur le Web** : Pour l'organisation et la visualisation de l'information récupérée.
+
+Pour un étudiant en informatique, en particulier ceux qui se concentrent sur l'analyse de données et l'IA, la compréhension des SOM et de leur algorithme d'apprentissage est précieuse. Elle offre des moyens puissants pour traiter, analyser et visualiser des données complexes, ce qui est fondamental dans de nombreux domaines de recherche et d'applications pratiques.
