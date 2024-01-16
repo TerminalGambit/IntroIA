@@ -342,3 +342,28 @@ L'apprentissage profond et les réseaux de neurones sont des termes souvent util
 - **Considérations sur les Données et les Ressources** : Compte tenu de la nécessité de grandes quantités de données et de puissance de calcul pour l'apprentissage profond, il est important de comprendre comment travailler efficacement avec des ensembles de données volumineux et d'exploiter des ressources de calcul, comme le GPU, pour l'entraînement des modèles.
 
 En résumé, les réseaux de neurones forment la base de l'apprentissage profond, qui utilise des réseaux neuronaux avec de nombreuses couches pour résoudre des problèmes complexes. Cette distinction est fondamentale dans l'IA, et une compréhension approfondie de ces concepts vous aidera à développer des solutions plus efficaces et innovantes dans vos études et vos projets futurs en IA.
+
+La notion de base de connaissances est centrale en intelligence artificielle, en particulier dans le domaine des systèmes basés sur les connaissances et du Web sémantique. Elle se compose de deux parties principales : la TBox (Base Terminologique) et l'ABox (Base d'Assertions). Cette structure est particulièrement utilisée dans les systèmes de représentation des connaissances basés sur la logique de description, un sous-ensemble de la logique du premier ordre.
+
+### Base d'Assertions (ABox)
+- **Définition** : L'ABox contient des connaissances contingentes, c'est-à-dire des faits spécifiques, souvent relatifs à des instances ou à des situations particulières.
+- **Caractéristiques** : Les assertions dans l'ABox sont généralement vraies à un instant donné ou dans un contexte spécifique. Par exemple, "Le ciel est nuageux le 16 janvier 2024" est une assertion qui peut être vraie à un moment donné, mais pas toujours.
+- **Rôle** : L'ABox est utilisée pour stocker et interroger des données concrètes, comme les propriétés d'objets spécifiques, les relations entre ces objets, ou des états du monde à un moment donné.
+
+### Base Terminologique (TBox)
+- **Définition** : La TBox contient des connaissances non-contingentes, souvent sous forme d'ontologies ou de schémas conceptuels.
+- **Axiomes et Contraintes** : Elle comprend des axiomes ou des contraintes d'intégrité qui sont toujours vrais, indépendamment de situations ou de contextes spécifiques. Par exemple, "Tous les humains sont mortels" est un axiome qui est universellement vrai.
+- **Rôle** : La TBox est utilisée pour modéliser la structure conceptuelle d'un domaine, définissant les classes, les propriétés, et les relations entre ces classes, ainsi que des règles générales et des contraintes.
+
+### Implications et Applications
+- **Représentation des Connaissances** : La distinction entre TBox et ABox permet une représentation claire et structurée des connaissances, facilitant
+
+ la modélisation de domaines complexes et l'inférence de nouvelles connaissances. Par exemple, en médecine, la TBox peut définir des concepts généraux comme les maladies et leurs symptômes, tandis que l'ABox peut contenir des informations sur des cas patients spécifiques.
+
+- **Systèmes d'Information et Web Sémantique** : Cette structure est essentielle dans les systèmes d'information basés sur les connaissances, notamment dans le Web sémantique, où elle permet de lier et de structurer des données issues de différentes sources pour en faciliter l'accès et l'interrogation.
+
+- **Raisonnement et Inférence** : La séparation entre connaissances générales (TBox) et spécifiques (ABox) permet aux systèmes basés sur les connaissances d'effectuer des inférences plus efficaces. Par exemple, un système peut inférer de nouvelles informations sur une instance spécifique en appliquant les règles générales de la TBox.
+
+- **Maintenance et Évolutivité** : La gestion séparée des connaissances générales et spécifiques rend les systèmes basés sur les connaissances plus faciles à maintenir et à faire évoluer. Les modifications dans les concepts généraux ou les règles (dans la TBox) peuvent être appliquées de manière globale sans avoir à revisiter chaque fait spécifique (dans l'ABox).
+
+Pour un étudiant en informatique, surtout intéressé par l'IA et la science des données, comprendre la structure et les applications d'une base de connaissances est crucial. Cela vous permet d'appréhender comment organiser, stocker et interroger des données complexes de manière structurée, facilitant le développement d'applications intelligentes capables d'analyser et de raisonner sur des données de manière sophistiquée.
