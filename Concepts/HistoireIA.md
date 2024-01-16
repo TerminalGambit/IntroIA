@@ -181,3 +181,4 @@ La hiérarchie est divis
 Pour un étudiant en informatique, la maîtrise de la hiérarchie de Chomsky enrichit votre compr
 
 éhension de la théorie sous-jacente aux langages de programmation et au traitement du langage naturel. Elle vous permet de mieux apprécier la complexité des différentes tâches de traitement du langage et la puissance des différents types d'automates et de machines de Turing. Cette connaissance est essentielle pour la conception d'algorithmes efficaces et pour la compréhension des limites de ce que les ordinateurs peuvent accomplir, en particulier dans le domaine de l'intelligence artificielle.
+
